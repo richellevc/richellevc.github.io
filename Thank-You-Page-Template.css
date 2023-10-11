@@ -1,0 +1,32 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+@media (max-width: 1399px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 800px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin: 60px auto 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin: 20px auto 60px;
+  }
+}@font-face {
+  font-family: 'HelveticaNeueLTStd-Th';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-Th.otf);
+}@font-face {
+  font-family: 'HelveticaNeueLTStd-UltLt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-UltLt.otf);
+}@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-Lt.otf);
+}
