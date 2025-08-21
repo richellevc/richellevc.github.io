@@ -278,11 +278,6 @@
     width: 340px;
   }
 }@font-face {
-  font-family: 'HelveticaNeueLTStd-Lt';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/HelveticaNeueLTStd-Lt.otf);
-}@font-face {
   font-family: 'HelveticaNeueLTStd-Th';
   font-style: normal;
   font-weight: 400;
@@ -292,4 +287,21 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/HelveticaNeueLTStd-UltLt.otf);
+}@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-Lt.otf);
+}
+/* page-custom-fonts */
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-Lt.otf);
+}@font-face {
+  font-family: 'HelveticaNeueLTStd-Th';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-Th.otf);
 }

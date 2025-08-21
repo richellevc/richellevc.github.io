@@ -186,7 +186,7 @@
 
 .u-section-1 .u-btn-1 {
   border-style: solid !important;
-  border-width: 0px !important;
+  border-width: 1px !important;
   border-color: transparent !important;
 }
 
@@ -208,15 +208,15 @@
 
 .u-section-1 .u-btn-1 {
   border-style: solid !important;
-  border-width: 0px !important;
+  border-width: 1px !important;
   border-color: transparent !important;
 }
 
-.u-section-1 .u-container-layout:hover .u-btn-1 {
+.u-section-1 :hover > .u-container-layout .u-btn-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
 
-.u-container-layout.hover .u-section-1 .u-btn-1 {
+.u-section-1 .hover > .u-container-layout .u-btn-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
 
@@ -244,7 +244,7 @@
 
 .u-section-1 .u-btn-2 {
   border-style: solid !important;
-  border-width: 0px !important;
+  border-width: 1px !important;
   border-color: transparent !important;
 }
 
@@ -266,17 +266,34 @@
 
 .u-section-1 .u-btn-2 {
   border-style: solid !important;
-  border-width: 0px !important;
+  border-width: 1px !important;
   border-color: transparent !important;
 }
 
-.u-section-1 .u-container-layout:hover .u-btn-2 {
+.u-section-1 :hover > .u-container-layout .u-btn-2 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
 
-.u-container-layout.hover .u-section-1 .u-btn-2 {
+.u-section-1 .hover > .u-container-layout .u-btn-2 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }@font-face {
+  font-family: 'HelveticaNeueLTStd-Th';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-Th.otf);
+}@font-face {
+  font-family: 'HelveticaNeueLTStd-UltLt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-UltLt.otf);
+}@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HelveticaNeueLTStd-Lt.otf);
+}
+/* page-custom-fonts */
+@font-face {
   font-family: 'HelveticaNeueLTStd-Th';
   font-style: normal;
   font-weight: 400;
@@ -286,9 +303,4 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/HelveticaNeueLTStd-Lt.otf);
-}@font-face {
-  font-family: 'HelveticaNeueLTStd-UltLt';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/HelveticaNeueLTStd-UltLt.otf);
 }
